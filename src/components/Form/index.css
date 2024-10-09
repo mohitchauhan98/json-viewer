@@ -1,0 +1,93 @@
+.form{
+    padding: 20px 0 0 60px;
+}
+
+.form-container{
+    display: flex;
+    gap: 200px;
+}
+
+.form label{
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;    
+}
+
+.form-input{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.form-input input {
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.form-input input::placeholder{
+    padding-left: 10px;
+}
+
+.form-input button{
+    padding: 0 20px;
+    background: rgb(89, 138, 245);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.form-text{
+    margin-top: 20px;
+}
+
+.form-text textarea{
+    width: 500px;
+    height: 335px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+
+.form-text textarea::placeholder{
+    padding: 10px;
+}
+
+.form-dropdown{
+    display: grid;
+    margin-top: 15px;
+    width: 300px;
+    gap: 20px;
+}
+
+.form-dropdown select{
+    height: 40px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.form-dropdown button{
+    height: 30px;
+    background: rgb(95, 206, 104);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.rendered-output{
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid #fff;
+    background: #fff;
+}
